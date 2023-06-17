@@ -2,7 +2,7 @@ from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
 import requests
 
-from app import config  # さっきのAPI KEYをインポートしておく
+from app import config # さっきのAPI KEYをインポートしておく
 
 app = FastAPI()
 
