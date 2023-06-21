@@ -2,7 +2,7 @@ from typing import List, Optional  # new
 
 from fastapi import FastAPI, Body, WebSocket, WebSocketDisconnect  # new
 from fastapi.middleware.cors import CORSMiddleware
-import requests
+import requests #なぜかrequests使えない
 
 from app import config  # さっきのAPI KEYをインポートしておく
 
